@@ -1,1 +1,2 @@
 # Beauty-chear
+Landing page
