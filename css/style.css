@@ -6,19 +6,20 @@ body {
 }
 .wrapper {
 	max-width: 1100px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 19px;
+	padding-right: 19px;
 	margin: 0 auto;
 }
 .nav {
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
-	padding-left: 0;
+	padding: 0;
+	padding-top: 6px;
 }
 .nav > li {
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 .nav > li > a {
 	text-decoration: none;
@@ -26,12 +27,13 @@ body {
 }
 .header {
 		background-color: #fff;
+		padding-top: 11px;
 }
 .header-top {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 0;
+	padding: 13px 0 14px 0;
 }
 .logo {
 	color: #66c05d;
@@ -39,13 +41,14 @@ body {
 	font-weight: 700;
 	display: flex;
 	align-items: center;
+	letter-spacing: 3px;
 }
 .logo-image {
 	display: block;
 	width: 80px;
 	height: 80px;
 	background-image: url(../img/logo.svg);
-	margin-right: 10px;
+	margin-right: 19px;
 }
 .header-info span {
 	font-size: 16px;
@@ -55,15 +58,24 @@ body {
 	border-radius: 20px;
 	border: 2px solid #66c05d;
 	background-color: transparent;
-	padding: 10px 15px;
-	margin-left: 20px;
+	padding: 9px 19px;
+	margin-left: 37px;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+.header-info button:hover {
+	background-color: #66c05d;
 }
 .header-bottom {
-	padding: 15px 0;
+	padding: 14px 0 32px 0;
 }
 .header-bottom .nav {
 	font-size: 16px;
 	margin: 0;
+}
+.header-bottom .nav > li {
+	margin-left: 25px;
+	margin-right: 15px;
 }
 hr {
 	border: none;
@@ -75,17 +87,19 @@ height: 1px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	padding-top: 100px;
-	padding-bottom: 150px;
+	padding-top: 159px;
+	padding-bottom: 202px;
 	color: #fff;
 }
 .title {
 	font-size: 48px;
 	font-weight: 700;
+	margin-bottom: 40px;
 }
 .banner p {
-	margin-bottom: 50px;
+	margin-bottom: 55px;
 	max-width: 315px;
+	line-height: 1.5;
 }
 .btn {
 	color: #fff;
@@ -93,5 +107,10 @@ height: 1px;
 	border-radius: 20px;
 	border: 2px solid #fff;
 	background-color: transparent;
-	padding: 10px 15px;
+	padding: 10px 46px;
+	transition: 0.2s ease;
+}
+.btn:hover {
+	background-color: #fff;
+	color: #333333;
 }
